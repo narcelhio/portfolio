@@ -1,6 +1,6 @@
 # DevEngineer
 
-Flexible and dedicated engineer with a strong passion for innovation and mechanical expertise. My background includes over 8 years of industrial design experience, spanning both the United States and Africa, where I played a pivotal role in hands-on design and build. I excel in analyzing mechanical designs, troubleshooting issues, and consistently delivering results with an unwavering focus on precision. As a team-oriented individual, I bring a motivated attitude and a track record of effective communication, seamless project coordination, and successful problem-solving within the field of mechanical engineering.
+Flexible and dedicated engineer with a strong passion for innovation in Electrical and mechanical expertise. My background includes over 8 years of industrial design experience, spanning both the United States and Africa, where I played a pivotal role in hands-on design and build. I excel in analyzing mechanical designs, troubleshooting issues, and consistently delivering results with an unwavering focus on precision. As a team-oriented individual, I bring a motivated attitude and a track record of effective communication, seamless project coordination, and successful problem-solving within the field of mechanical  and Electrical engineering.
 
 #### Technical Skills: Python, SQL, AWS, HTML, MATLAB, CSS,JavaScript, Linux, CAD, SolidWorks, C++
 
