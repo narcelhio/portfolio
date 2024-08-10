@@ -34,3 +34,15 @@ Flexible and dedicated engineer with a strong passion for innovation in Electric
 #### Language: English, French, Spanish, Portuguese
 
 ## CAD Projects
+![Ball](https://github.com/user-attachments/assets/b41d1bc1-7c74-4864-957c-51f84e4379bf)
+![Design+Priority_Centered](https://github.com/user-attachments/assets/45ef0fce-e0ae-4fc1-a517-3c5e5f490c0d)
+![EX_2](https://github.com/user-attachments/assets/728838bf-ab2a-4de8-8709-ade698664b30)
+![EX_3](https://github.com/user-attachments/assets/5c82d87d-070f-45ad-9c69-14f16f5e29fa)
+![Extrude+Cut+and+Fillet_Updated](https://github.com/user-attachments/assets/4e21cad0-207a-4a84-a6d6-e36a19686264)
+![Loft](https://github.com/user-attachments/assets/2821ff57-fee1-4630-b751-46c42d099dbd)
+![Practice_Drawing](https://github.com/user-attachments/assets/4ed3185d-e7a6-4ad2-b606-36230a3964e1)
+![Practice_sweep+refrence+planes+revolve](https://github.com/user-attachments/assets/09ecf89b-feab-46f6-af17-4041be7c3b70)
+![Practice+Extrude+and+Chamfer_Drawing](https://github.com/user-attachments/assets/9c249261-8636-41e7-864a-d2e079c60e27)
+![Refrence+Geometry_Planes_drawing](https://github.com/user-attachments/assets/028d39e9-bc9f-4887-980e-83c1f5a3f7c1)
+![Relations_Curves](https://github.com/user-attachments/assets/64e94dec-c824-4487-b6dc-391d7ebd3b59)
+![revolve+and+revolve+cut!](https://github.com/user-attachments/assets/e4d0c5b5-0f6d-404b-bd7e-1f77027e20df)
