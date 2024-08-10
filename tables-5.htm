@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan and rowpan Tables</title>
+    <style>
+        * {box-sizing: border-box; font-family: 'Segoe UI'; margin: 0;}
+        .table-container {background-color: slateblue; padding: 20px; display: flow-root;}
+        .col-1 {float: left; width: 100%;}
+        .pad {padding: 20px;}
+        .title {text-align: center; color: #fff; font-size: 20px;}
+        .table {margin: 0 auto; width: 100%; }
+        /*borderless table
+        no border on table and th, td*/
+        
+        table {border-collapse: collapse; }
+        th, td { padding: 10px 0; text-align: center;}
+        th {background-color: darkorange; color: #fff;}
+        /*td {background-color: gold; color: #fff;}*/
+        tfoot td {background-color: crimson; color: #fff;}
+
+        /*striped effect*/
+        tbody tr:nth-of-type(even) {background-color: teal;}
+        tbody tr:nth-of-type(odd) {background-color: #fff;}
+
+        /*hover effect*/
+        tbody tr:hover {background-color: darkblue; color: #fff;}
+
+        /*border-radius effect*/
+        th:nth-of-type(1) {border-top-left-radius: 25px;}
+        th:nth-of-type(2) {border-top-right-radius: 25px;}
+        tfoot td:nth-of-type(1) {border-bottom-left-radius: 25px;}
+        tfoot td:nth-of-type(4) {border-bottom-right-radius: 25px;}
+
+        /*colspan effect*/
+        th:nth-of-type(1) {background-color: deeppink;}
+        th:nth-of-type(2) {background-color: lime;}
+        .color1 {background-color: maroon; color: #fff;}
+
+        [rowspan="3"] {background-color: black; color: #fff;}
+
+        @media screen and (max-width:435px) {
+            .table-container {padding-left: 0; background-color: transparent; }
+            .pad {padding-left: 0;}
+            .title {color: #000;}
+
+        }
+        @media screen and (max-width:301px) {
+            th {padding: 10px;}
+        }
+    </style>
+</head>
+<body>
+    <section class="table-container">
+        <h3 class="title">A Colspan and rowpan table</h3>
+        <div class="col-1 pad">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Section 1</th>
+                        <th colspan="2">Section 4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Section 1">Data 1</td>
+                        <td data-label="Section 2">Data 2</td>
+                        <td data-label="Section 3">Data 3</td>
+                        <td data-label="Section 4">Data 4</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Section 1" colspan="3" class="color1">Data 1</td>
+                        <td data-label="Section 4">Data 4</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Section 1" rowspan="3">Data 1</td>
+                        <td data-label="Section 2">Data 2</td>
+                        <td data-label="Section 3">Data 3</td>
+                        <td data-label="Section 4">Data 4</td>
+                    </tr>
+                    <tr>
+                       
+                        <td data-label="Section 2">Data 2</td>
+                        <td data-label="Section 3">Data 3</td>
+                        <td data-label="Section 4">Data 4</td>
+                    </tr>
+                    <tr>
+                        
+                        <td data-label="Section 2">Data 2</td>
+                        <td data-label="Section 3">Data 3</td>
+                        <td data-label="Section 4">Data 4</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td data-label="Section 1">Footer 1</td>
+                        <td data-label="Section 2">Footer 2</td>
+                        <td data-label="Section 3">Footer 3</td>
+                        <td data-label="Section 4">Footer 4</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+</body>
+</html>

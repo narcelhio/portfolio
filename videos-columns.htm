@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos Equal Columns</title>
+    <style>
+        body {margin: 0;}
+        * {box-sizing: border-box;}
+        /*column container*/
+        .column-container {padding: 20px; overflow: auto;}
+        .text {font-size: 18px; font-weight: 800;}
+        /*padding for each column*/
+        .pad {padding: 15px;}
+        /*styling for image column*/
+        img, video {width: 100%;}
+        .pad-img {padding: 5px;}
+        /*Equal columns*/
+        .col-1-2{float: left; width: 50%;} /*1/2 column*/
+        .col-1-3{float: left; width: 33.33%;} /*1/3 column*/
+        .col-1-4{float: left; width: 25%;} /*1/4 column*/
+        .col-1-5{float: left; width: 20%;} /*1/5 column*/
+        .col-1-6{float: left; width: 16.66%;} /*1/6 column*/
+        .col-3-4{float: left; width: 75%;} /*3/4 column*/
+        /*colors*/
+        .color1 {background-color: darkorange;}
+        .color2 {background-color: white;}
+        .color3 {background-color: blueviolet;}
+        .color4 {background-color: hotpink;}
+        /*Responsiveness of the columns*/
+        @media screen and (max-width:650px) {
+            [class*="col-"] {float: none; display: block; width: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <section class="column-container color4">
+        <h3>Nested video in Columns</h3>
+        <div class="col-3-4 pad color2">
+            <h3>1/3 videos nested in 3/4 Column</h3>
+            <div class="col-1-3">
+                <video src="files/videos/win.mp4" controls></video> 
+            </div>
+            <div class="col-1-3">
+                <video src="files/videos/zootopia.mp4" controls></video> 
+            </div>
+            <div class="col-1-3">
+                <video src="files/videos/fly.mp4" controls></video>   
+            </div>
+        </div>
+        <div class="col-1-4 pad color1">
+            <h3>1/2 images nested in 1/4 Column</h3>
+            <div class="col-1-2">
+                <img src="files/pix11.jpg" alt="">   
+            </div>
+            <div class="col-1-2">
+                <img src="files/pix7.jpg" alt="">   
+            </div>
+        </div>
+    </section>
+    <!--2 Equal columns-->
+    <section class="column-container color1">
+        <h3>2 Equal Columns</h3>
+        <div class="col-1-2 pad color2">
+            <h3>1/2 video Column</h3>
+            <video src="files/videos/win.mp4" controls></video> 
+        </div>
+        <div class="col-1-2 pad color3">
+            <h3>1/2 video Column</h3>
+            <video src="files/videos/feel.mp4" controls></video>   
+        </div>
+    </section>
+    <!--3 Equal columns-->
+    <section class="column-container color4">
+        <h3>3 Equal Columns</h3>
+        <div class="col-1-3 pad color2">
+            <h3>1/3 Equal video Column</h3>
+            <video src="files/videos/steve.mp4" controls></video> 
+            <p>
+              <span class="text">1/3 column</span>  
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer nec odio. Praesent libero. Sed cursus ante 
+                dapibus diam. Sed nisi. Nulla quis sem at nibh elementum 
+                imperdiet. Duis sagittis ipsum. Praesent mauris. 
+                Fusce nec tellus sed augue semper porta. Mauris massa. 
+                Vestibulum lacinia arcu eget nulla. Class aptent taciti 
+                sociosqu ad litora torquent per conubia nostra, 
+                per inceptos himenaeos. Curabitur sodales ligula in libero.
+            </p>
+        </div>
+        <div class="col-1-3 pad color3">
+            <h3>1/3 Equal video Column</h3>
+            <p>
+              <span class="text">1/3 column</span>  
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer nec odio. Praesent libero. Sed cursus ante 
+                dapibus diam. Sed nisi. Nulla quis sem at nibh elementum 
+                imperdiet. Duis sagittis ipsum. Praesent mauris. 
+                Fusce nec tellus sed augue semper porta. Mauris massa. 
+                Vestibulum lacinia arcu eget nulla. Class aptent taciti 
+                sociosqu ad litora torquent per conubia nostra, 
+                per inceptos himenaeos. Curabitur sodales ligula in libero.
+            </p>
+            <video src="files/videos/win.mp4" controls></video> 
+        </div>
+        <div class="col-1-3 pad color2">
+            <h3>1/3 Equal video Column</h3>
+            <video src="files/videos/win.mp4" controls></video> 
+            <p>
+              <span class="text">1/3 column</span>  
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer nec odio. Praesent libero. Sed cursus ante 
+                dapibus diam. Sed nisi. Nulla quis sem at nibh elementum 
+                imperdiet. Duis sagittis ipsum. Praesent mauris. 
+                Fusce nec tellus sed augue semper porta. Mauris massa. 
+                Vestibulum lacinia arcu eget nulla. Class aptent taciti 
+                sociosqu ad litora torquent per conubia nostra, 
+                per inceptos himenaeos. Curabitur sodales ligula in libero.
+            </p>
+        </div>
+    </section>
+    <!--4 Equal columns-->
+    <section class="column-container color1">
+        <h3>4 Equal Column video/Image gallery</h3>
+        <div class="col-1-4 pad color2">
+            <img src="files/pix11.jpg" alt="">
+            <video src="files/videos/win.mp4" controls></video> 
+            <img src="files/pix6.jpg" alt="">
+            <video src="files/videos/zootopia.mp4" controls></video> 
+        </div>
+        <div class="col-1-4 pad color3">
+            <video src="files/videos/win.mp4" controls></video> 
+            <img src="files/pix11.jpg" alt="">
+            <video src="files/videos/fly.mp4" controls></video> 
+            <img src="files/pix6.jpg" alt="">
+        </div>
+        <div class="col-1-4 pad color2">
+            <img src="files/pix6.jpg" alt="">
+            <video src="files/videos/steve.mp4" controls></video> 
+            <img src="files/pix11.jpg" alt="">
+            <video src="files/videos/win.mp4" controls></video> 
+        </div>
+        <div class="col-1-4 pad color3">
+            <video src="files/videos/win.mp4" controls></video> 
+            <img src="files/pix6.jpg" alt="">
+            <video src="files/videos/win.mp4" controls></video> 
+            <img src="files/pix11.jpg" alt="">
+        </div>
+    </section>
+    <!--4 Equal columns-->
+    <section class="column-container color4">
+        <h3>4 Equal Column video gallery</h3>
+        <div class="col-1-4 pad-img color2">
+            <video src="files/videos/win.mp4" controls></video> 
+            <video src="files/videos/fly.mp4" controls></video> 
+            <video src="files/videos/zootopia.mp4" controls></video> 
+            <video src="files/videos/feel.mp4" controls></video> 
+        </div>
+        <div class="col-1-4 pad-img color2">
+            <video src="files/videos/zootopia.mp4" controls></video> 
+            <video src="files/videos/feel.mp4" controls></video>
+            <video src="files/videos/win.mp4" controls></video> 
+            <video src="files/videos/fly.mp4" controls></video>
+        </div>
+        <div class="col-1-4 pad-img color2">
+            <video src="files/videos/feel.mp4" controls></video>
+            <video src="files/videos/win.mp4" controls></video> 
+            <video src="files/videos/fly.mp4" controls></video>
+            <video src="files/videos/zootopia.mp4" controls></video> 
+        </div>
+        <div class="col-1-4 pad-img color2">
+            <video src="files/videos/win.mp4" controls></video> 
+            <video src="files/videos/fly.mp4" controls></video> 
+            <video src="files/videos/zootopia.mp4" controls></video> 
+            <video src="files/videos/feel.mp4" controls></video> 
+        </div>
+    </section>
+    <!--5 Equal columns-->
+    <section class="column-container color2">
+        <h3>5 Equal Columns</h3>
+        <div class="col-1-5">
+            <video src="files/videos/win.mp4" controls></video> 
+        </div>
+        <div class="col-1-5">
+            <video src="files/videos/fly.mp4" controls></video> 
+        </div>
+        <div class="col-1-5">
+            <video src="files/videos/zootopia.mp4" controls></video>
+        </div>
+        <div class="col-1-5">
+            <video src="files/videos/feel.mp4" controls></video> 
+        </div>
+        <div class="col-1-5">
+            <video src="files/videos/fly.mp4" controls></video>
+        </div>
+    </section>
+    <!--6 Equal columns-->
+    <section class="column-container color1">
+        <h3>6 Equal Columns</h3>
+        <div class="col-1-6 pad color2">
+            <p>
+              <span class="text">1/6 column</span>  
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer nec odio. Praesent libero. Sed cursus ante 
+                dapibus diam. Sed nisi. Nulla quis sem at nibh elementum 
+                imperdiet. Duis sagittis ipsum. Praesent mauris. 
+                Fusce nec tellus sed augue semper porta. Mauris massa. 
+                Vestibulum lacinia arcu eget nulla. Class aptent taciti 
+                sociosqu ad litora torquent per conubia nostra, 
+                per inceptos himenaeos. Curabitur sodales ligula in libero.
+            </p>
+        </div>
+        <div class="col-1-6 pad color3">
+            <p>
+              <span class="text">1/6 column</span>  
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer nec odio. Praesent libero. Sed cursus ante 
+                dapibus diam. Sed nisi. Nulla quis sem at nibh elementum 
+                imperdiet. Duis sagittis ipsum. Praesent mauris. 
+                Fusce nec tellus sed augue semper porta. Mauris massa. 
+                Vestibulum lacinia arcu eget nulla. Class aptent taciti 
+                sociosqu ad litora torquent per conubia nostra, 
+                per inceptos himenaeos. Curabitur sodales ligula in libero.
+            </p>
+        </div>
+        <div class="col-1-6 pad color2">
+            <p>
+              <span class="text">1/6 column</span>  
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer nec odio. Praesent libero. Sed cursus ante 
+                dapibus diam. Sed nisi. Nulla quis sem at nibh elementum 
+                imperdiet. Duis sagittis ipsum. Praesent mauris. 
+                Fusce nec tellus sed augue semper porta. Mauris massa. 
+                Vestibulum lacinia arcu eget nulla. Class aptent taciti 
+                sociosqu ad litora torquent per conubia nostra, 
+                per inceptos himenaeos. Curabitur sodales ligula in libero.
+            </p>
+        </div>
+        <div class="col-1-6 pad color3">
+            <p>
+              <span class="text">1/6 column</span>  
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer nec odio. Praesent libero. Sed cursus ante 
+                dapibus diam. Sed nisi. Nulla quis sem at nibh elementum 
+                imperdiet. Duis sagittis ipsum. Praesent mauris. 
+                Fusce nec tellus sed augue semper porta. Mauris massa. 
+                Vestibulum lacinia arcu eget nulla. Class aptent taciti 
+                sociosqu ad litora torquent per conubia nostra, 
+                per inceptos himenaeos. Curabitur sodales ligula in libero.
+            </p>
+        </div>
+        <div class="col-1-6 pad color2">
+            <p>
+              <span class="text">1/6 column</span>  
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer nec odio. Praesent libero. Sed cursus ante 
+                dapibus diam. Sed nisi. Nulla quis sem at nibh elementum 
+                imperdiet. Duis sagittis ipsum. Praesent mauris. 
+                Fusce nec tellus sed augue semper porta. Mauris massa. 
+                Vestibulum lacinia arcu eget nulla. Class aptent taciti 
+                sociosqu ad litora torquent per conubia nostra, 
+                per inceptos himenaeos. Curabitur sodales ligula in libero.
+            </p>
+        </div>
+        <div class="col-1-6 pad color3">
+            <p>
+              <span class="text">1/6 column</span>  
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer nec odio. Praesent libero. Sed cursus ante 
+                dapibus diam. Sed nisi. Nulla quis sem at nibh elementum 
+                imperdiet. Duis sagittis ipsum. Praesent mauris. 
+                Fusce nec tellus sed augue semper porta. Mauris massa. 
+                Vestibulum lacinia arcu eget nulla. Class aptent taciti 
+                sociosqu ad litora torquent per conubia nostra, 
+                per inceptos himenaeos. Curabitur sodales ligula in libero.
+            </p>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {background-color: royalblue;}
+        .loading {position: absolute; top: 50%; left: 50%;
+                transform: rotate(45deg);
+                animation: loader 1.2s ease-in-out infinite;}
+        span {width: 40px; height: 40px; display: block;
+             background-color: white; position: absolute;
+            animation: bloc 1.2s ease-in-out infinite;}
+        span:nth-child(1) {top: 0; left: 0;}
+        span:nth-child(2) {top: 0; right: 0;  background-color: red;
+                          animation: inverse 1.2s ease-in-out infinite;}
+        span:nth-child(3) {bottom: 0; left: 0; background-color: red;
+                          animation: inverse 1.2s ease-in-out infinite;}
+        span:nth-child(4) {bottom: 0; right: 0;}
+        
+        @keyframes loader {
+            0%, 10%, 100% {width: 80px; height: 80px;}
+            65% {width: 150px; height: 150px;}
+        }
+        @keyframes bloc {
+            0%, 30% {transform: rotate(0deg);}
+            55% {background-color: red;}
+            100% {transform: rotate(90deg);}
+        }
+        @keyframes inverse {
+            0%, 30% {transform: rotate(0deg);}
+            55% {background-color: white;}
+            100% {transform: rotate(-90deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="loading">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</body>
+</html>

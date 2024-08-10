@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Table</title>
+    <link rel="stylesheet" href="files/fontawesome/css/all.css">
+    <style>
+       * {box-sizing: border-box; font-family: Georgia;}
+       body {margin: 0;}
+       .container {padding: 40px; display: flow-root;}
+       .plan {text-decoration: underline double crimson; color: crimson; text-align: center;}
+       .col-1-3 {float: left; width: 33.33%; }
+       .card {text-align: center; box-shadow: 0 10px 15px rgba(0,0,0,0.4);
+             border-radius: 20px; padding: 25px 20px; max-width: 400px;}
+       .title .fa {font-size: 60px; box-shadow: 0 10px 15px rgba(0,0,0,0.4);
+                  border-radius: 50%; width: 100px; height: 100px;
+                  line-height: 100px; color: #fff;}
+        .title h2 {padding: 20px 0; font-size: 30px; color: #e27;}
+        .price h3 {padding: 10px 0; font-size: 30px; color: #d4f;}
+        .options ul {list-style-type: none; margin: 0; padding: 0;}
+        .options ul li {font-size: 20px; margin-bottom: 20px; color: indigo;} 
+        .options .fa {padding-right: 20px;}
+        .card .btn-1 {text-decoration: none; box-shadow: 0 10px 15px rgba(0,0,0,0.4); 
+            background: linear-gradient(-45deg, #e2f, #e27); display: inline-block; width: 150px;
+                     height: 50px; line-height: 50px; border-radius: 50px;
+                     font-size: 20px; color: #fff;}
+        .card .btn-1:hover {background: linear-gradient(-45deg, #2af, #37f);}
+        .card .fa1 {background: linear-gradient(-45deg, #d57, #37f);}
+        .card .fa2 {background: linear-gradient(-45deg, #3d7, #30f);}
+        .card .fa3 {background: linear-gradient(-45deg, #4ae, #c2d);}
+
+        @media screen and (max-width:670px) 
+        {
+            .col-1-3 {float: none; width: 100%; margin-bottom: 20px;}
+            .card {max-width: 600px;}
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <h1 class="plan">Price Plans</h1>
+        <!--1st column table-->
+        <div class="col-1-3">
+            <div class="card">
+                <div class="title">
+                    <i class="fa fa-rocket fa1"></i>
+                    <h2>Basic</h2>
+                </div>
+                <div class="price">
+                    <h3><sup>$</sup> 15</h3>
+                </div>
+                <div class="options">
+                    <ul>
+                        <li> <i class="fa fa-check"></i> Free delivery </li>
+                        <li> <i class="fa fa-check"></i> Down Payment </li>
+                        <li> <i class="fa fa-check"></i> 4 months subscription </li>
+                        <li> <i class="fa fa-check"></i> 1 month maintenance </li>
+                        <li> <i class="fa fa-times"></i> Free delivery </li>
+                    </ul>
+                </div>
+                <a href="#" class="btn-1">Sign Up</a>
+            </div>
+        </div>
+        <!--2nd column table-->
+        <div class="col-1-3">
+            <div class="card">
+                <div class="title">
+                    <i class="fa fa-star fa2"></i>
+                    <h2>Premium</h2>
+                </div>
+                <div class="price">
+                    <h3><sup>$</sup> 75</h3>
+                </div>
+                <div class="options">
+                    <ul>
+                        <li> <i class="fa fa-check"></i> Free delivery </li>
+                        <li> <i class="fa fa-check"></i> Down Payment </li>
+                        <li> <i class="fa fa-check"></i> 4 months subscription </li>
+                        <li> <i class="fa fa-check"></i> 1 month maintenance </li>
+                        <li> <i class="fa fa-times"></i> Free delivery </li>
+                    </ul>
+                </div>
+                <a href="#" class="btn-1">Sign Up</a>
+            </div>
+        </div>
+        <!--3rd column table-->
+        <div class="col-1-3">
+            <div class="card">
+                <div class="title">
+                    <i class="fa fa-plane fa3"></i>
+                    <h2>Diamond</h2>
+                </div>
+                <div class="price">
+                    <h3><sup>$</sup> 55</h3>
+                </div>
+                <div class="options">
+                    <ul>
+                        <li> <i class="fa fa-check"></i> Free delivery </li>
+                        <li> <i class="fa fa-check"></i> Down Payment </li>
+                        <li> <i class="fa fa-check"></i> 4 months subscription </li>
+                        <li> <i class="fa fa-check"></i> 1 month maintenance </li>
+                        <li> <i class="fa fa-times"></i> Free delivery </li>
+                    </ul>
+                </div>
+                <a href="#" class="btn-1">Sign Up</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

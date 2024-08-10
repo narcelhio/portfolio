@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {background-color: darkslategray;}
+        .loader {width: 150px; height: 150px;
+             position: absolute;
+            top: 50%; left: 50%; border-radius: 50%;
+            border-top: 5px solid rebeccapurple;
+            animation: spin 2s linear infinite;}
+        .loader::before {content: ''; position: absolute;
+                        border-top: 5px solid orangered; 
+                        border-radius: 50%;
+                        top: 5px; left: 5px; right: 5px; bottom: 5px;
+                        animation: spin 3s linear infinite; }
+        .loader::after {content: ''; position: absolute;
+                        border-top: 5px solid royalblue; 
+                        border-radius: 50%;
+                        top: 15px; left: 15px; right: 15px; bottom: 15px;
+                        animation: spin 1.5s linear infinite; }
+        @keyframes spin {
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+        }
+        @media screen and (max-width:1000px) {
+            .loader {left: 40%;}
+        }
+        @media screen and (max-width:700px) {
+            .loader {left: 35%;}
+        }
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+</body>
+</html>
