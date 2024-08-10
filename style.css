@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.hero {
+    background-color: blue;
+    background-image: url(mountain1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 2000px;
+    margin: 0;
+}
+
+main {
+    padding: 2.5vh 10vw;
+    text-align: center;
+    color: #111212;
+  }
+  #page-title {
+    font-family: "Lora", serif;
+    font-size: 35px;
+  }
+  #skier-image {
+    width: 45%;
+    margin: 20px 20px 20px 0;
+    float: left;
+  }
+  
+  p {
+    text-align: left; 
+    font-size: 20px; 
+    line-height: 1.6;
+  }
+  
+  #page-title {
+    font-size: 36px; /* Increase title text size */
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .text-content {
+    width: 50%;
+  }
+  
+  /* Disable hover styles for touch devices */
+  @media (hover: none) {
+    .navbar a:hover, .bi-snow:hover {
+      color: inherit;
+      transform: none;
+    }
+  }
+  
+  /* Hidden section styles */
+  #hero {
+    display: none;
+  }
+  
+  #hero img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .hero {
+      display: block; /* Show the section on screens wider than 768px */
+    }
+  }
+  
+  /* Parallax and hover effects */
+  .parallax {
+    background-attachment: fixed;
+  }
+  
+  .bi-snow:hover {
+    transform: rotate(10deg);
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  
+    .bi-snow:hover {
+      transform: none;
+    }
+  }
+  
