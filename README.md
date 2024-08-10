@@ -31,4 +31,6 @@ Flexible and dedicated engineer with a strong passion for innovation in Electric
 - Researched industrial mechanics to enhance battery charge in electric vehicles through pneumatic/dynamo technology.
 - Designed a transmission core with a capacitor to convert waste energy, contributing to battery efficiency.
 
-### Language: English, French, Spanish, Portuguese
+#### Language: English, French, Spanish, Portuguese
+
+## CAD Projects
