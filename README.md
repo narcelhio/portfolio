@@ -49,3 +49,4 @@ HTML/CSS, JavaScript, UX Research, Computational Thinking, Agile, Business Intel
 ![revolve+and+revolve+cut!](https://github.com/user-attachments/assets/e4d0c5b5-0f6d-404b-bd7e-1f77027e20df)
 ![Screenshot 2024-11-02 141240](https://github.com/user-attachments/assets/e55be129-b272-4286-8a1e-b86d3b2d9fff)
 ![Screenshot 2024-11-02 141317](https://github.com/user-attachments/assets/500d32a5-950a-44a4-9d59-cb6e1d399a72)
+![image](https://github.com/user-attachments/assets/eb8287b3-d418-4280-9186-046e6af0f1a0)
