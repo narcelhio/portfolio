@@ -47,3 +47,5 @@ HTML/CSS, JavaScript, UX Research, Computational Thinking, Agile, Business Intel
 ![Refrence+Geometry_Planes_drawing](https://github.com/user-attachments/assets/028d39e9-bc9f-4887-980e-83c1f5a3f7c1)
 ![Relations_Curves](https://github.com/user-attachments/assets/64e94dec-c824-4487-b6dc-391d7ebd3b59)
 ![revolve+and+revolve+cut!](https://github.com/user-attachments/assets/e4d0c5b5-0f6d-404b-bd7e-1f77027e20df)
+![Screenshot 2024-11-02 141240](https://github.com/user-attachments/assets/e55be129-b272-4286-8a1e-b86d3b2d9fff)
+
