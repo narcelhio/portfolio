@@ -1,16 +1,23 @@
-# DevEngineer
+# CAREER PROFILE
 
-Flexible and dedicated engineer with a strong passion for innovation in Electrical and mechanical expertise. My background includes over 8 years of industrial design experience, spanning both the United States and Africa, where I played a pivotal role in hands-on design and build. I excel in analyzing mechanical designs, troubleshooting issues, and consistently delivering results with an unwavering focus on precision. As a team-oriented individual, I bring a motivated attitude and a track record of effective communication, seamless project coordination, and successful problem-solving within the field of mechanical  and Electrical engineering.
+Ambitious Mechanical and Energy Engineering student at the University of North Texas, graduating in May 2025, seeking an entry-level Mechanical Engineer role focused on mechanical and system solutions. Skilled in AutoCAD and Matlab, I excel at generating innovative solutions in dynamic environments. I am scheduled to take the FE exam in December 2024 to further solidify my engineering foundation.
+With over 8 years of industrial design experience across the U.S. and Africa, I have a proven ability to analyze mechanical designs, troubleshoot issues, and deliver precise, high-quality results. I am a motivated, team-oriented engineer with a passion for innovation and a strong focus on delivering sustainable energy solutions.
 
 ## Technical Skills: 
-HTML/CSS, JavaScript, UX Research, Computational Thinking, Agile, Business Intelligence, Electronics, Figma, MATLAB, Python, AWS, SQL, Lunix, Flutter, Dart.
+-Programming Languages: MATLAB-Simulink (Advanced), C++ (Intermediate), Python (Beginner), CSS (Beginner), JavaScript (Intermediate), HTML (Beginner), SQL (Intermediate)
+-Software: Solidworks| AutoCAD | Inventor | CATIA | Catia | Microsoft Office Suite (Excel)
+-Manufacturing: CNC machining, packaging equipment, lathes, drills, welding,
+-Operating Systems: Windows, Linux, MacOS, Android
+-Certifications: 100 Days of Code: The Complete Python Pro Bootcamp (Udemy)
+-Languages: English, French (Advanced), Portuguese (Advanced), Spanish (intermediate)
+-Leadership skills: Team-oriented, attention to detail, time management, creative problem solver
 
 ## Education
 - Associate., NanoTechnologi Engineering | SUNY Polytech at Schnectady (_Dec 2018_) 		        		
-- B.S., Mechanical and Electrical Engineering | The University of North Texas at Dallas
+- B.S., Mechanical and Electrical Engineering | The University of North Texas at Dallas (_May 2025_)
 - GPA: 3.0/4.0
 ## Work Experience
-**Packaging Engineer**
+**Packaging Engineer (_May 2023 - Oct 2024_)**
 *Haskell*
 - Spearheaded equipment packaging processes, ensuring safe transport and delivery of valuable machinery, achieving a 15% reduction in equipment damage during transport.
 - Designed and optimized packaging solutions in collaboration with cross-functional teams.
@@ -18,11 +25,11 @@ HTML/CSS, JavaScript, UX Research, Computational Thinking, Agile, Business Intel
 - Led over 50 rigorous testing and simulation sessions, validating designs with a 95% success rate in risk mitigation during delivery.
 - Continuously evaluated and improved packaging methods to enhance efficiency and minimize environmental impact.
 
-**Production Associate (_Jan 2022 - Aug 2022_)**
+**Production Associate (_Sept 2022 - May 2023_)**
 *Raytheon*
 - Collaborated in the manufacturing production of components, ensuring effective communication with site leaders.
 
-**Project Engineer (_Jan 2021 - Dec 2022_)**
+**Project Engineer CO-OP (_Jan 2022 - Dec 2022_)**
 *GAF*
 - Designed and manufactured plant necessities using Inventor, including catwalk frames, mechanical components, and pump motors.
 - Evaluated load rates and interpreted pump curves to ensure efficient design through MatLab and CAD designed assessments.
